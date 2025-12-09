@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>TP2</title>
+</head>
+<body>
+    <h1>
+        To-Do List
+    </h1>
+    <div id = 'container'>
+        <h2>
+            Ajouter une tache
+        </h2>
+        <input id ="tache" type="text">        
+        <button type="button" id="ajouter_tache">Ajouter</button>
+    </div>
+    <div id="compteurs">
+        <p>Tâches en cours : <span id="en_cours">0</span></p>
+        <p>Tâches terminées : <span id="terminees">0</span></p>
+    </div>
+    <div id="search_container">
+        <h3>Rechercher une tâche</h3>
+        <input id="search" type="text" placeholder="Rechercher...">
+    </div>
+    <div id="contaier_list">
+        <ul id="liste_taches">
+            <li>                
+            </li>
+        </ul>
+    </div>
+    <button id="tout_supprimer">Tout supprimer</button>
+    <script src="script.js"></script>
+</body>
+</html>
